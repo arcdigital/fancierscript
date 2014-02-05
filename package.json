@@ -23,7 +23,7 @@
   },
   "main": "./index.js",
   "bin": {
-    "fancy": "./bin/fancier"
+    "fancier": "./bin/fancier"
   },
   "scripts": {
     "build": "./bin/fancier -o lib src",
