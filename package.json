@@ -1,7 +1,7 @@
 {
-  "name": "fancyscript",
+  "name": "fancierscript",
   "version": "0.5.1",
-  "description": "Fancy JavaScript",
+  "description": "Fancier JavaScript",
   "keywords": [
     "compiler",
     "harmony",
@@ -11,23 +11,22 @@
     "destructuring"
   ],
   "license": "BSD-3-Clause",
-  "author": {
-    "name": "Brandon Mills",
-    "url": "https://github.com/btmills",
-    "email": "mills.brandont@gmail.com"
-  },
-  "homepage": "https://github.com/btmills/fancyscript",
-  "bugs": "https://github.com/btmills/fancyscript/issues",
+  "contributors": [
+    "Brandon Mills <mills.brandont@gmail.com> (https://github.com/btmills)",
+    "Anand Capur <me@anand.io> (https://github.com/arcdigital)"
+  ],
+  "homepage": "https://github.com/arcdigital/fancierscript",
+  "bugs": "https://github.com/arcdigital/fancierscript/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/btmills/fancyscript.git"
+    "url": "https://github.com/arcdigital/fancierscript.git"
   },
   "main": "./index.js",
   "bin": {
-    "fancy": "./bin/fancy"
+    "fancy": "./bin/fancier"
   },
   "scripts": {
-    "build": "./bin/fancy -o lib src",
+    "build": "./bin/fancier -o lib src",
     "test": "node test/test.js"
   },
   "dependencies": {
